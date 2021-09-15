@@ -1,0 +1,16 @@
+name: todo-rust
+version: "1.0.0"
+author: Daniel Q. <danielq987@gmail.com>
+about: Todo.txt parser for rust 
+subcommands:
+    - echo:
+        about: Echoes the todo.txt file 
+    - ls:
+        about: Lists the current todos using default method
+    - add:
+        about: Adds a todo item 
+        args:
+            - add_input:
+                help: Text to echo
+                required: true
+                index: 1

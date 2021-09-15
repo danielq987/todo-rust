@@ -1,0 +1,2 @@
+(C) Make todo txt android client (kotlin?) +ideas @home
+I like cheese
